@@ -1,5 +1,5 @@
 # Feliz año, mi amor
 
-Una web interactiva de Carlos e Iyana.
+Una web interactiva de Carlos e Iyana. La historia está publicada con sus fotos, el vídeo y los capítulos.
 
-La publicación está en preparación: falta subir las fotografías y el vídeo antes de activar GitHub Pages.
+Abre la web desde el enlace de GitHub Pages de este repositorio.
