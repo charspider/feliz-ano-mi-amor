@@ -1,7 +1,7 @@
 'use strict';
 const $=s=>document.querySelector(s);
 const escapeHtml=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const asset=name=>window.EMBEDDED_MEDIA?.[name]||`assets/photos/${name}`;
+const asset=name=>window.EMBEDDED_MEDIA?.[name]||new URL(`assets/photos/${name}`,document.baseURI).href;
 const path=id=>`#/${id}`;
 let currentIndex=-1,galleryIndex=0,lightIndex=0,openedGallery=[],timer=null,renderToken=0,secretOpened=false;
 const announcer=$('#announcer');
