@@ -1,5 +1,5 @@
 # Feliz año, mi amor
 
-Una web interactiva de Carlos e Iyana. La historia está publicada con sus fotos, el vídeo y los capítulos.
+Una web interactiva de Carlos e Iyana, con capítulos, fotos, vídeo y juegos.
 
-Abre la web desde el enlace de GitHub Pages de este repositorio.
+**[Abrir la web](https://charspider.github.io/feliz-ano-mi-amor/)**
