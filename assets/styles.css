@@ -41,3 +41,9 @@ dialog{border:1px solid #ffffff54;background:#111c22;color:var(--ink);box-shadow
 .chapter-copy h1.long-title{font-size:clamp(2.8rem,5.2vw,5.6rem);line-height:1.04;overflow-wrap:break-word}
 .credits-head{max-width:900px}.credits-head h1{font-size:clamp(3rem,6vw,6rem);line-height:1.06;overflow-wrap:break-word}
 @media(max-width:600px){.cover h1{font-size:clamp(2.8rem,11vw,4.3rem)}.chapter-copy h1.long-title{font-size:clamp(2.4rem,10vw,3.4rem)}.credits-head h1{font-size:clamp(2.5rem,9vw,4rem)}}
+
+/* Separación entre los párrafos del relato. */
+.narrative p{margin-bottom:1.45rem}
+.narrative p:last-child{margin-bottom:0}
+.credits-text p{margin-bottom:1.35rem}
+.credits-text p:last-child{margin-bottom:0}
